@@ -2,8 +2,9 @@ body{
     .roboto-thin {
         font-family: "Roboto", system-ui;
         font-weight: 100;
-        font-style: normal;
-      } }
+        font-style: normal; } 
+     
+    }
       
       .roboto-bold-italic {
         font-family: "Roboto", system-ui;
@@ -31,6 +32,8 @@ body{
 nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
 }
 .nav-title{
     color:#181818 ;
@@ -48,4 +51,18 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747;
+}
+.header{
+background-color: rgb(241, 232, 216) 
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+   display: flex; 
+   align-items: center;
+}
+.banner .profile{
+    width: 500px;
+}
+.banner-content{
+    /* align-items: center; */
 }
