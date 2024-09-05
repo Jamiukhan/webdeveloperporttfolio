@@ -1,116 +1,168 @@
-body{
-    .roboto-thin {
-        font-family: "Roboto", system-ui;
-        font-weight: 100;
-        font-style: normal; } 
-     
-    }
-      
-      .roboto-bold-italic {
-        font-family: "Roboto", system-ui;
-        font-weight: 700;
-        font-style: italic;
-      }
-      .orang{
-        color: #fd6e0a
-      }
-      .btn-primary{
-        border-radius: 5px;
-        background: #fd6e0a;
-        border: 0;
-        color: white;
-        font-size: 20px;
-        font-weight: 700;
-        padding: 15px 35px;
-      }
-       nav{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
+body {
+  .roboto-thin {
+    font-family: "Roboto", system-ui;
+    font-weight: 100;
+    font-style: normal;
+  }
+
 }
+
+.roboto-bold-italic {
+  font-family: "Roboto", system-ui;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.orang {
+  color: #fd6e0a
+}
+
+.btn-primary {
+  border-radius: 5px;
+  background: #fd6e0a;
+  border: 0;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 35px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 /* nav related styles */
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 200px;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 200px;
 }
-.nav-title{
-    color:#181818 ;
-    font-size: 45px ;
-    font-weight: 800;
+
+.nav-title {
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
 }
-nav > ul{
-    display: flex;
-    align-items: center;
+
+nav>ul {
+  display: flex;
+  align-items: center;
 }
+
 nav li {
-    list-style: none;
-    margin-right: 50px;
+  list-style: none;
+  margin-right: 50px;
 }
+
 nav a {
-    text-decoration: none;
-    color: #474747;
+  text-decoration: none;
+  color: #474747;
 }
-.header{
-    background-image:url('../images/header_bg.png');
-    background-repeat: no-repeat;
-    background-position: bottom right;
-background-color: rgb(241, 232, 216) 
+
+.header {
+  background-image: url('../images/header_bg.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-color: rgb(241, 232, 216)
 }
-.banner{
-    padding: 30px 30px 0px 150px;
-   display: flex; 
-   align-items: center;
-   justify-content: space-between;
+
+.banner {
+  padding: 30px 30px 0px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.banner .profile{
-    width: 500px;
+
+.banner .profile {
+  width: 500px;
 }
-.section-title{
-   color: #181818;
-   text-align: center;
-   font-size: 35px;
-   font-weight: 700; 
+
+.section-title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
 }
-.section-description{
+
+.section-description {
   color: #757575;
   text-align: center;
   font-size: 18px;
 }
-.banner-content{
-    /* align-items: center; */
-    max-width: 500px;
+
+.banner-content {
+  /* align-items: center; */
+  max-width: 500px;
 }
-.banner-greeting{
-  font-size:45px;
+
+.banner-greeting {
+  font-size: 45px;
   color: #474747;
   margin-bottom: 0;
 }
-.banner-title{
+
+.banner-title {
   font-size: 85px;
-  font-weight: 700; 
-  margin-top: 5px; 
+  font-weight: 700;
+  margin-top: 5px;
   margin-bottom: 20px;
 }
-.khan{
-    max-width:585px ;
+
+.khan {
+  max-width: 585px;
 }
 
-.about{
+.about {
   padding: 130px;
   border-radius: 10px;
-  background: #FFF8F3; 
-  margin: 130px 0; 
+  background: #FFF8F3;
+  margin: 130px 0;
 }
-main{
+
+main {
   max-width: 1140px;
- margin: 0 auto;
+  margin: 0 auto;
 }
-.about-info-container{
+
+main section {
+  margin-top: 130px;
+}
+
+.about-info-container {
   display: flex;
   justify-content: space-around;
 }
-.about-info{
+
+.about-info {
   text-align: center;
-} 
+}
+
+#what-i-do-description {
+  padding: 30px 150px;
+}
+
+.skills-container {
+  display: flex;
+  gap: 24px;
+}
+
+.skill {
+  padding: 30px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+}
+
+.skill-description {
+  color: #757575;
+}
+
+.resume-column-title {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+}
