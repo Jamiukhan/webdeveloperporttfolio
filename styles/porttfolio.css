@@ -63,9 +63,9 @@ nav a {
 }
 
 .header {
-  background-image: url('../images/header_bg.png');
+  background-image: url('../images/header_bg.png'), url('../images/developer.png');
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: bottom right, top left;
   background-color: rgb(241, 232, 216)
 }
 
@@ -199,10 +199,10 @@ footer{
 }
 .footer-column{
   width: 50%;
-  .social-links a{
-margin-right: 25px;
-  }
 }
+.social-links a{
+  margin-right: 25px;
+    }
 .contact input[type="text"], .contact input[type="email"], textarea{
   display: block;
   margin-bottom: 25px;
@@ -212,7 +212,4 @@ margin-right: 25px;
   background: #fff;
   border: 0;
   width: 100%;
-}
-.btn-primary{
-
 }
